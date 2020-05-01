@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import './style/Login.css'
 const Login = () =>{
     return(
-        <div>
+        <div className="Login">
             <Header/>
             <LoginForm/>
             <Footer/>

@@ -1,9 +1,13 @@
-import React from 'react'
-import './style/Footer.css'
+import React from "react";
+import "./style/Footer.css";
 const Footer = () => {
-    return(
-        <p><i>By: GPSolutions</i></p>
-    )
-}
+  return (
+    <div className="Footer">
 
-export default Footer
+        <i>By: GPSolutions</i>
+
+    </div>
+  );
+};
+
+export default Footer;

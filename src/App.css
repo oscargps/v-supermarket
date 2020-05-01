@@ -1,5 +1,10 @@
-
-
-
-
-
+html{
+    min-height: 100%;
+    min-width:100%;
+}
+body{
+    /* background: red; */
+    background:linear-gradient(#2d364c, #6534ac);
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
