@@ -1,7 +1,7 @@
 .LoginForm {
   display: flex;
   flex-direction: column;
-
+  width: 25em;
   justify-content: center;
   align-items: center;
   border: 1px solid white;
@@ -23,6 +23,7 @@
   width: 50%;
   height: 100px;
   margin: 10px 0;
+  text-align: center;
 }
 form {
   display: flex;
@@ -57,8 +58,19 @@ select {
   border: 1px solid white;
   background-color: #ffffff4d;
   height: 50px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .LoginForm__button:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .LoginForm {
+
+    width: 15em;
+    
+  }
+
+
+}
+

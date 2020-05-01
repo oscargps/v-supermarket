@@ -5,7 +5,7 @@ class LoginForm extends Component{
     render(){
         return(
             <div className="LoginForm">
-                <h1>Registra tu negocio</h1>
+                <h2>Registra tu negocio</h2>
                 <section className="LoginForm__image">
                     Sube la imagen de tu negocio
                 </section>
