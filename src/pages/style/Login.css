@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(#2d364c, #6534ac);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}

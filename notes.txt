@@ -1,0 +1,7 @@
+Colors:
+
+principal:2d364c
+secundario: 6534ac
+last:ff7800
+
+tipografia: Roboto

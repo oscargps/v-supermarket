@@ -1,0 +1,64 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25),
+    0 10px 10px rgba(255, 255, 255, 0.22);
+  font-size: 20px;
+}
+.LoginForm__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50%;
+  height: 100px;
+  margin: 10px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+form input,
+select {
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin: 10px 0;
+  width: 100%;
+  height: 40px;
+}
+select {
+  border: 0px;
+  color: white;
+  background-color: transparent;
+
+}
+.LoginForm__button {
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid white;
+  background-color: #ffffff4d;
+  height: 50px;
+  margin: 20px 0;
+}
+.LoginForm__button:hover {
+  cursor: pointer;
+}
