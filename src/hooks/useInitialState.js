@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useInitialState = (API) =>{
+const useGetBussines = (API) =>{
     const [negocios, setnegocio] = useState({
         nombre: "",
         ciudad: "",
@@ -16,4 +16,4 @@ const useInitialState = (API) =>{
       }, []);
       return negocios;
 }
-export default useInitialState;
+export default useGetBussines;

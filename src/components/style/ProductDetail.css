@@ -1,0 +1,23 @@
+.ProductDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProductDetail__imagen{
+    width: 40%;
+}
+.ProductDetail__table{
+    padding-top: 2rem;
+    font-size: 18px;
+}
+.ProductDetail__button-edit{
+    margin-top: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #52a788;
+    color: white;
+}
+.ProductDetail__button-edit:hover{
+    cursor: pointer;
+}

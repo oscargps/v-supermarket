@@ -2,18 +2,13 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProductCard from "../components/ProductCard";
-import Modal from "../components/Modal";
 import "./style/Dashboard.css";
-import useInitialState from "../hooks/useInitialState";
+import useGetBussines from "../hooks/useInitialState";
 const Dashboard = () => {
   const API = "http://localhost:3001/negocios";
-  const initialState = useInitialState(API);
-  console.log(initialState);
-  const [modal, setModal] = useState(false);
-  const toggleModal = () => {
-    setModal(!modal);
-  };
-  const { nombre, ciudad, sector, productos } = initialState;
+  const negocios = useGetBussines(API);
+  console.log(useGetBussines);
+  const { nombre, ciudad, sector, productos } = negocios;
   console.log(productos);
 
   return (
@@ -29,17 +24,9 @@ const Dashboard = () => {
           <h2>Mis Productos</h2>
           <div className="Products">
             {productos.map((producto) => (
-              <ProductCard
-                onOpen={toggleModal}
-                key={producto.nombre}
-                nombre={producto.nombre}
-              />
+              <ProductCard key={producto.nombre} {...producto} />
             ))}
           </div>
-
-          <Modal isOpen={modal} onClose={toggleModal}>
-            <h4>Esto esta dentro del modal</h4>
-          </Modal>
         </div>
       </div>
       <Footer />

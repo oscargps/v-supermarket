@@ -6,60 +6,70 @@
             "sector": "comida",
             "productos": [
               {
+                "id":1,
                 "nombre": "product name",
                 "descripcion": "esta es la descripcion",
                 "precio": 5000,
                 "stock": 50
               },
               {
+                "id":2,
                 "nombre": "product name 2",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":3,
                 "nombre": "product name 3",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":4,
                 "nombre": "product name 4",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":5,
                 "nombre": "product name 5",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":6,
                 "nombre": "product name 6",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":7,
                 "nombre": "product name 7",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":8,
                 "nombre": "product name 8",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":9,
                 "nombre": "product name 9",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
                 "stock": 50
               },
               {
+                "id":10,
                 "nombre": "product name 10",
                 "descripcion": "esta es la descripcion 2",
                 "precio": 5001,
